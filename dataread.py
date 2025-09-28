@@ -7,4 +7,5 @@ Created on Sun Sep 28 14:27:41 2025
 import pandas as pd 
 
 data = pd.read_csv(r"test.csv")
+data.info()
 
